@@ -12,9 +12,9 @@ const Home = () => {
           <img className='object-fill' src={Image}/>
         </div>
 
-        <div className='w-1/2 text-left text-black'>
-          <h1 className={styles.sectionHeadText}>I'm Sofija Lazarova</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit minus aperiam assumenda, sequi ea necessitatibus cupiditate labore officia libero, dolor error harum cum quis laudantium quod inventore dicta at. Doloremque.</p>
+        <div className='w-1/2 text-left text-black pr-8'>
+          <h1 className={styles.heroSubText}>Aspiring Software Engineer</h1>
+          <p className='mt-3'>I'm Sofija Lazarova, a dedicated and enthusiastic software engineering student at the Faculty of Computer Science & Engineering in Skopje. With all my exams completed, I am on the brink of graduating, ready to step into the professional world of software development.</p>
         </div>        
       </div>
       
