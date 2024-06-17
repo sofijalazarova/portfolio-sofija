@@ -13,10 +13,7 @@ const App = () => {
           <section id="home"><Home /></section>
           
         </div>
-        {/* <section id="about">
-          <About />
-        </section> */}
-        
+               
         <section id="work" style={{backgroundColor: "#608ac7"}}>
           <Works/>
         </section>

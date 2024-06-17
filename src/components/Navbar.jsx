@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { Link as ScrollLink } from "react-scroll"; 
-
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
