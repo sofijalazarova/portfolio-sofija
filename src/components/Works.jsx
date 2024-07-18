@@ -57,7 +57,7 @@ const Works = () => {
       </div>
 
       <div className='mt-10 flex flex-wrap gap-7'>      
-          <ProjectCard imagePath={Image} name="Galaxia courses" description="This project aims to provide an introductory platform for users interested in learning about astronomy." github="https://github.com/sofijalazarova/galaxia/tree/main/galaxia" website_link="" tech="Spring Boot, React, Vite, Tailwind CSS, PostgreSQL"/>
+          <ProjectCard imagePath={Image} name="Galaxia courses" description="This project aims to provide an introductory platform for users interested in learning about astronomy." github="https://github.com/sofijalazarova/galaxia/tree/main/galaxia" website_link="https://sofijalazarova.github.io/galaxia/" tech="Spring Boot, React, Vite, Tailwind CSS, PostgreSQL"/>
           <ProjectCard imagePath={Image1} name="Cinema App" description="This web application enables the sale of movie tickets, utilizing Onion Architecture to maintain a clean and structured codebase." github="https://github.com/sofijalazarova/EShopCinemaApp" website_link="https://cinego-sofija.azurewebsites.net/" tech="C#, HTML, CSS, JavaScript, .NET Core"/>
           <ProjectCard imagePath={Image2} name="MakeUp App" description="In this project, I developed a dynamic and responsive web application that allows users to browse and discover various makeup products from Maybelline. Public API Used: http://makeup-api.herokuapp.com/" github="https://github.com/sofijalazarova/makeUpApp" website_link="https://sofijalazarova.github.io/makeUpApp/" tech="React, Vite, Tailwind CSS, Axios"/>
       </div>
