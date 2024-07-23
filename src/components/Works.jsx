@@ -15,25 +15,23 @@ const ProjectCard = ( props ) => {
           <img onClick={() => { window.location.href(`${props.website_link}`)}}
             src={props.imagePath}
             alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'/>
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}  // link do github
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <a href={props.github}>
-              <img 
-                src={GitImage}
-                alt='source code'
-                className='object-contain'                           
-              />
-              </a>
-            </div>
-          </div>
+            className='w-full h-full object-cover rounded-2xl'/>         
         </div>
 
         <div className='mt-5'>
-          <a href={props.website_link}><h3 className='text-black font-bold text-[24px]'>{props.name}</h3></a>
+          <div className="flex justify-center items-center">
+            <a href={props.website_link}><h3 className='text-black font-bold text-[24px]'>{props.name}</h3></a>
+            <div className="card-img_hover rounded-full black-gradient w-10 h-10 cursor-pointer mx-3">
+              <a href={props.github}>
+                <img 
+                  src={GitImage}
+                  alt='source code'
+                  className='object-contain'                           
+                />
+                </a>
+            </div>
+          </div>
+          
           <p className='mt-2 text-black text-[14px]'>{props.description}</p>
           <p className="text-black font-bold">{props.tech}</p>
         </div>        
