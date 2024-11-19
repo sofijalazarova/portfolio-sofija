@@ -12,7 +12,7 @@ function ProjectCard({ project }) {
         <div className="relative w-full h-[230px]">
           <img
             onClick={() => {
-              window.location.href(`${website_link}`);
+              window.open(website_link, "_blank");
             }}
             src={image}
             alt="project_image"
@@ -22,7 +22,7 @@ function ProjectCard({ project }) {
 
         <div className="mt-5">
           <div className="flex items-center justify-center">
-            <a href={website_link}>
+            <a href={website_link} target="_blank">
               <h3 className="text-black font-bold text-[24px]">{name}</h3>
             </a>
             <div className="w-10 h-10 mx-3 rounded-full cursor-pointer card-img_hover black-gradient">

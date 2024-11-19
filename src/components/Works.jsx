@@ -2,6 +2,7 @@ import { styles } from "../styles";
 import Image from "../../public/galaxia1.png";
 import Image1 from "../../public/cinemaApp.png";
 import Image2 from "../../public/makeup.png";
+import Image3 from "../../public/wildoasis.png";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
@@ -14,10 +15,18 @@ const projects = [
     image: Image,
   },
   {
+    name: "The Wild Oasis",
+    description:
+      "Hotel app for employees to manage cabins, bookings, and guest check-ins efficiently. It offers a dashboard with real-time stats, filterable tables, and tools for handling payments, guest preferences, and cabin details.",
+    website_link: "https://the-wild-oasis-sofija.netlify.app",
+    tech: "React Router, React Query, Context API, React Hook Form, Styled Components",
+    image: Image3,
+  },
+  {
     name: "MakeUp App",
     description:
       "In this project, I developed a dynamic and responsive web application that allows users to browse and discover various makeup products from Maybelline. Public API Used: http://makeup-api.herokuapp.com/",
-    website_link: "https://galaxia-courses-website.vercel.app/",
+    website_link: "https://sofijalazarova.github.io/makeUpApp/",
     tech: "React, Vite, Tailwind CSS, Axios",
     image: Image2,
   },
