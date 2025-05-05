@@ -25,7 +25,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: List build output (debug)
+        run: ls -la ./dist
+
       - name: Upload production-ready build files
+        if: success() && hashFiles('dist/**') != ''
         uses: actions/upload-artifact@v3
         with:
           name: production-files
