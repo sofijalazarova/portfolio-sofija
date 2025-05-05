@@ -1,11 +1,20 @@
 import { styles } from "../styles";
 import Image from "../../public/galaxia1.png";
-import Image1 from "../../public/cinemaApp.png";
+import Image1 from "../../public/dashboard.png";
 import Image2 from "../../public/makeup.png";
 import Image3 from "../../public/wildoasis.png";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
+  {
+    name: "BudgetMate",
+    description:
+      "BudgetMate is a personal finance app for tracking expenses, managing income, setting savings goals, and planning monthly budgets — all with smart insights and clear visualizations.",
+    website_link:
+      "https://drive.google.com/file/d/1AsNNLYOla1TEStXsIe8aV6p6vA7FKoNA/view?usp=sharing",
+    tech: "Next.js, TypeScript, Spring Boot, Tailwind CSS, PostgreSQL",
+    image: Image1,
+  },
   {
     name: "Galaxia courses",
     description:

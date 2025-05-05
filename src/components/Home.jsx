@@ -12,16 +12,17 @@ const Home = () => {
         </div>
 
         <div className="text-center text-black lg:w-1/2 lg:text-left lg:pr-8">
-          <h1 className={styles.heroSubText}>Aspiring Software Engineer</h1>
+          <h1 className={styles.heroSubText}>Software Engineer</h1>
           <p className="mt-3">
             I&apos;m{" "}
             <span className={styles.heroSubText}>
               <b>Sofija Lazarova</b>
             </span>
-            , a dedicated and enthusiastic software engineering student at the
-            Faculty of Computer Science & Engineering in Skopje. With all my
-            exams completed, I am on the brink of graduating, ready to step into
-            the professional world of software development.
+            , a passionate and dedicated software engineer who recently
+            graduated from the Faculty of Computer Science & Engineering in
+            Skopje. With my degree completed, I am excited to step fully into
+            the professional world of software development and take on new
+            challenges in the tech industry.
           </p>
         </div>
       </div>
