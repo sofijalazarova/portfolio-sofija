@@ -13,6 +13,7 @@ const projects = [
     website_link:
       "https://drive.google.com/file/d/1nIYGDCurbCQR5484gZ4P_eZXlGd0nbcr/view?usp=sharing",
     tech: "Next.js, TypeScript, Spring Boot, Tailwind CSS, PostgreSQL",
+    github_link: "https://github.com/sofijalazarova/finance-frontend",
     image: Image1,
   },
   {
@@ -21,6 +22,7 @@ const projects = [
       "This project aims to provide an introductory platform for users interested in learning about astronomy.",
     website_link: "https://galaxia-courses-website.vercel.app/",
     tech: "Next.js, Supabase, Tailwind CSS",
+    github_link: "https://github.com/sofijalazarova/galaxia-courses-website",
     image: Image,
   },
   {
@@ -29,6 +31,7 @@ const projects = [
       "Hotel app for employees to manage cabins, bookings, and guest check-ins efficiently. It offers a dashboard with real-time stats, filterable tables, and tools for handling payments, guest preferences, and cabin details.",
     website_link: "https://the-wild-oasis-sofija.netlify.app",
     tech: "React Router, React Query, Context API, React Hook Form, Styled Components",
+    github_link: "",
     image: Image3,
   },
   {
@@ -37,6 +40,7 @@ const projects = [
       "In this project, I developed a dynamic and responsive web application that allows users to browse and discover various makeup products from Maybelline. Public API Used: http://makeup-api.herokuapp.com/",
     website_link: "https://sofijalazarova.github.io/makeUpApp/",
     tech: "React, Vite, Tailwind CSS, Axios",
+    github_link: "https://github.com/sofijalazarova/makeUpApp",
     image: Image2,
   },
 ];
