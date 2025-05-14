@@ -1,7 +1,7 @@
 import GitImage from "../../public/github.png";
 
 function ProjectCard({ project }) {
-  const { name, description, tech, website_link, image } = project;
+  const { name, description, tech, website_link, image, github_link } = project;
 
   return (
     <div>
@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
               <h3 className="text-black font-bold text-[24px]">{name}</h3>
             </a>
             <div className="w-10 h-10 mx-3 rounded-full cursor-pointer card-img_hover black-gradient">
-              <a href="#">
+              <a href={github_link}>
                 <img
                   src={GitImage}
                   alt="source code"
