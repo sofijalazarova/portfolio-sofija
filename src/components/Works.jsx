@@ -11,7 +11,7 @@ const projects = [
     description:
       "BudgetMate is a personal finance app for tracking expenses, managing income, setting savings goals, and planning monthly budgets — all with smart insights and clear visualizations.",
     website_link:
-      "https://drive.google.com/file/d/1AsNNLYOla1TEStXsIe8aV6p6vA7FKoNA/view?usp=sharing",
+      "https://drive.google.com/file/d/1nIYGDCurbCQR5484gZ4P_eZXlGd0nbcr/view?usp=sharing",
     tech: "Next.js, TypeScript, Spring Boot, Tailwind CSS, PostgreSQL",
     image: Image1,
   },
